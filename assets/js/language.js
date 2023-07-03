@@ -2,7 +2,7 @@
 
 
 var locale = 'vi';
-fetch('./assets/i18n/' + locale + '.json')
+fetch('../assets/i18n/' + locale + '.json')
    .then(response => response.json())
    .then(translation => {
       var elementsToTranslate = document.querySelectorAll('[data-translate]');

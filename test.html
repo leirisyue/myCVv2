@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <p data-translate="common.hello"></p>
+   <p data-translate="common.myname"></p>
+   <script>
+      var locale = 'vi';
+      fetch('/assets/i18n/' + locale + '.json')
+         .then(response => response.json())
+         .then(translation => {
+            console.log("🚀 ~ translation:", translation);
+            var elementsToTranslate = document.querySelectorAll('[data-translate]');
+            elementsToTranslate.forEach(function (element) {
+               var translationKey = element.getAttribute('data-translate');
+               if (translation.hasOwnProperty(translationKey)) {
+                  element.innerHTML = translation[translationKey];
+               }
+            });
+         })
+         .catch(error => {
+            console.error('Lỗi khi tải file JSON:', error);
+         });
+   </script>
+</body>
+
+</html>

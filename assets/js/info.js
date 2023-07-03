@@ -1,6 +1,6 @@
 
 
-fetch('../assets/i18n/info.json')
+fetch('assets/i18n/info.json')
    .then(function (response) {
       return response.json();
    })
@@ -51,7 +51,7 @@ function infoData(data) {
 
 
 
-fetch('../assets/i18n/resume.json')
+fetch('assets/i18n/resume.json')
    .then(function (response) {
       return response.json();
    })

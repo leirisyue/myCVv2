@@ -1,47 +1,50 @@
 {
-   "education":{
-      "highShool":{
-         "name":"THPT chuyên Nguyễn Quang Diêu",
-         "time":"2012-2015",
-         "subject":"Chuyên tin học - Khóa 4",
-         "description":""
-      },
-      "university1":{
-         "name":"ĐH Khoa Học Tự Nhiên",
-         "time":"2015-2019",
-         "subject":"Khoa học Moi Trường - Chuyên ngành tin học môi trường",
-         "description":"Bằng những nổ lực của bản thân đã đạt được nhiều thành tích trong quá trình nghiên cứu. Bên cạnh đó còn tham gia nhiều hoạt động sôi nổi của Đoàn trường thông qua đội Tuyên truyền môi trường",
-         "sub1":"Đạt top 9 Cuộc thi Tìm hiểu Giải pháp, Sản phẩm TPHCM GIS 2018.",
-         "sub2":"Hạng 3 Giải thưởng sinh viên Nghiên cứu Khoa học Eureka lần XXI 2019.",
-         "sub3":"Đồng tác giả trong Nghiên cứu Khoa học được đăng trên tạp chí Earth Systems and Environment.",
-         "sub4":"Tham gia dự án Khi Môi trường lên tiếng - vai trò Huấn luyện viên do trường THCS - Đinh Thiện Lý tổ chức",
-         "sub5":"Tham gia tổ chức sự kiện, truyền thông về giáo dục Môi trường thuộc đội Tuyên truyền Môi trường với sự tài trợ của công ty Suntory Pepsico kết hợp trung tâm Live&Learn phối hợp thực hiện.",
-         "sub6":"Trưởng ban truyền thông và quản lý fanpage đội Tuyên truyền Môi Trường"
-      },
-      "university2":{
-         "name":"ĐH Khoa Học Tự Nhiên",
-         "time":"2021-2023",
-         "subject":"Công nghệ Thông tin",
+   "education": {
+      "highShool": {
+         "name": "THPT chuyên Nguyễn Quang Diêu",
+         "time": "2012-2015",
+         "subject": "Chuyên tin học - Khóa 4",
          "description": ""
       },
-      "university3":{
-         "name":"Trung tâm tin học",
-         "description":"Trung tâm tin học Khoa học Tự nhiên: Thiết kế giao diện web, Thiết kế web, Thiết kế web cho thiết bị di động, React Native cơ bản Lập trình viên Javascript,... <br> Trung tâp tin học Cyberlearn: Front End Master ReactJS, Backend - NodeJS Foundation"
+      "university1": {
+         "name": "ĐH Khoa Học Tự Nhiên",
+         "time": "2015-2019",
+         "subject": "Khoa học Môi Trường - Chuyên ngành tin học môi trường",
+         "description": "Bằng những nổ lực của bản thân đã đạt được nhiều thành tích trong quá trình nghiên cứu. Bên cạnh đó còn tham gia nhiều hoạt động sôi nổi của Đoàn trường thông qua đội Tuyên truyền môi trường",
+         "sub1": "Hạng 3 Giải thưởng sinh viên Nghiên cứu Khoa học Eureka lần XXI 2019.",
+         "sub2": "Đạt top 9 Cuộc thi Tìm hiểu Giải pháp, Sản phẩm TPHCM GIS 2018.",
+         "sub3": "Đồng tác giả trong Nghiên cứu Khoa học được đăng trên tạp chí Earth Systems and Environment.",
+         "sub4": "Tham gia dự án Khi Môi trường lên tiếng - vai trò Huấn luyện viên do trường THCS - Đinh Thiện Lý tổ chức",
+         "sub5": "Tham gia tổ chức sự kiện, truyền thông về giáo dục Môi trường thuộc đội Tuyên truyền Môi trường với sự tài trợ của công ty Suntory Pepsico kết hợp trung tâm Live&Learn phối hợp thực hiện.",
+         "sub6": "Trưởng ban truyền thông và quản lý fanpage đội Tuyên truyền Môi Trường"
+      },
+      "university2": {
+         "name": "ĐH Khoa Học Tự Nhiên",
+         "time": "2021-2023",
+         "subject": "Công nghệ Thông tin",
+         "description": "",
+         "sub1": "Chuyên đề phát triển phần mềm nâng cao (Phần mềm quản lý doanh nghiệp - cấp phát voucher/angular - java)",
+         "sub2": "Phát triển ứng dụng web - (phần mền bán hàng eShop/nodejs - express.js)",
+         "sub3": "Lập trình web - (phần mềm bán hàng online)",
+         "sub4": "Các đồ án nhỏ cho các môn học khác"
+      },
+      "university3": {
+         "name": "Trung tâm tin học",
+         "description": "Trung tâm tin học Khoa học Tự nhiên: Thiết kế giao diện web, React Native cơ bản Lập trình viên Javascript, lập trình viên java,... <br> Trung tâp tin học Cyberlearn: Front End Master ReactJS, Backend - NodeJS"
       }
    },
-   "experience":{
-      "frondEnd":{
-         "name":"Phát triển ứng dụng web",
-         "time":"2019 - Present",
-         "subject":"Front-end",
-         "description":"Chuyên thiết kế giao diện web bằng framework Angular. Song song đó còn học thêm các bằng cấp liên quan đê phục vụ quá trình làm việc như Học văn bằng Đại học CNTT, bằng cấp kỹ thuật viên sử dụng framework Reactjs, JavaScript, Nodejs,..."
+   "experience": {
+      "frondEnd": {
+         "name": "Phát triển ứng dụng web",
+         "time": "2019 - Present",
+         "subject": "Front-end",
+         "description": "Chuyên thiết kế giao diện web bằng framework Angular. Song song đó còn học thêm các bằng cấp liên quan đê phục vụ quá trình làm việc như Học văn bằng Đại học CNTT, bằng cấp kỹ thuật viên sử dụng framework Reactjs, JavaScript, Nodejs,..."
       },
-      "backEnd":{
-         "name":"Phát triển hệ thống",
-         "time":"2021 - Present",
-         "subject":"Back-end",
-         "description":"Thiết kế hệ thống với ngôn ngữ java. Đồng thời tìm hiểu và học hỏi ứng dụng một mã nguồn mở Nodejs. Đây có thể là bước ngoặc định hướng tương lai, cảm thấy mình thích hợp sử lý logic hơn là màu sắc, quản lý hệ thống hơn là giao diện."
+      "backEnd": {
+         "name": "Phát triển hệ thống",
+         "time": "2021 - Present",
+         "subject": "Back-end",
+         "description": "Thiết kế hệ thống với ngôn ngữ java. Đồng thời tìm hiểu và học hỏi ứng dụng một mã nguồn mở Nodejs. Đây có thể là bước ngoặc định hướng tương lai, cảm thấy mình thích hợp xử lý logic và quản lý hệ thống hơn là làm việc giao diện."
       }
    }
-
 }

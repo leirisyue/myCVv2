@@ -95,6 +95,12 @@ function resumeData(data) {
       <h4>${data.education.university2.name}</h4>
       <h5>${data.education.university2.time}</h5>
       <p><em>${data.education.university2.subject}</em></p>
+      <ul>
+      <li>${data.education.university2.sub1}</li>
+      <li>${data.education.university2.sub2}</li>
+      <li>${data.education.university2.sub3}</li>
+      <li>${data.education.university2.sub4}</li>
+      </ul>
       <p>${data.education.university2.description}</p>
       </div>
    `;

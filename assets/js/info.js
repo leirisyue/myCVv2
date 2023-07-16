@@ -83,7 +83,6 @@ function resumeData(data) {
       <ul>
          <li>${data.education.university1.sub1}</li>
          <li>${data.education.university1.sub2}</li>
-         <li>${data.education.university1.sub3}</li>
          <li>${data.education.university1.sub4}</li>
          <li>${data.education.university1.sub5}</li>
          <li>${data.education.university1.sub6}</li>

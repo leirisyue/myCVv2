@@ -90,3 +90,8 @@
       bottom: -80px;
    }
 }
+
+.menu-bottom {
+   position: absolute;
+   bottom: 10px;
+}

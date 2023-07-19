@@ -95,3 +95,7 @@
    position: absolute;
    bottom: 10px;
 }
+
+.click-more:hover{
+   text-decoration: underline;
+}

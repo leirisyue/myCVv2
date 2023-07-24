@@ -45,6 +45,13 @@ function infoData(data) {
          <h4>Call:</h4>
          <p>${data.info.phone}</p>
       </div>
+      <div class="phone">
+         <i class="bi bi-check"></i>
+         <h4>More detail:</h4>
+         <p>
+            <a href="assets/file/cv.pdf" target="_blank" title="Click here" class="black underline">View CV Online</a>
+         </p>
+      </div>
    </div>
    `
 }
@@ -125,5 +132,5 @@ function resumeData(data) {
       <p>${data.experience.backEnd.description}</p>
       </div>
    `;
-   
+
 }

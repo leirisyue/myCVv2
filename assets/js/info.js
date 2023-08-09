@@ -14,7 +14,6 @@ fetch('assets/i18n/info.json')
 
 
 function infoData(data) {
-   console.log("🚀 ~ appendData ~ data:", data);
 
    document.getElementById("about-myInfo").innerHTML = `
    <li><i class="bi bi-chevron-right"></i> <strong>Ngày sinh: </strong> <span>${data.info.birthday}</span></li>
@@ -25,7 +24,6 @@ function infoData(data) {
    document.getElementById("about-myMedia").innerHTML = `
    <li><i class="bi bi-chevron-right"></i> <strong>Email: </strong> <span>${data.media.email}</span></li>
    <li><i class="bi bi-chevron-right"></i> <strong>Trình độ </strong> <span>${data.info.Degree}</span></li>
-   <li><i class="bi bi-chevron-right"></i> <strong>Địa chỉ: </strong> <span>${data.info.local}</span></li>
    `;
 
    document.getElementById('contact-info').innerHTML = `

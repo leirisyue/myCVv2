@@ -95,3 +95,9 @@
    position: absolute;
    bottom: 10px;
 }
+
+.click-more{
+   font-size: 80%;
+   font-weight: 600;
+   text-decoration: underline;
+}
